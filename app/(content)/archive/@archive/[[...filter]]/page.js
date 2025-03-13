@@ -1,5 +1,5 @@
 import React from "react";
-import NewsList from "@/components/main-header/news-list";
+import NewsList from "@/components/news-list";
 import {
   getAvailableNewsMonths,
   getAvailableNewsYears,
@@ -7,7 +7,6 @@ import {
   getNewsForYearAndMonth,
 } from "@/lib/news";
 import Link from "next/link";
-import notFound from "@/app/not-found";
 
 function FilteredNewsPage({ params }) {
   const filter = params.filter;

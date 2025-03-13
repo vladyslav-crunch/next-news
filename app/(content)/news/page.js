@@ -1,5 +1,5 @@
 import { DUMMY_NEWS } from "@/dummy-news";
-import NewsList from "@/components/main-header/news-list";
+import NewsList from "@/components/news-list";
 
 function News() {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
-import NewsList from "@/components/main-header/news-list";
+import NewsList from "@/components/news-list";
 import { getLatestNews } from "@/lib/news";
 
-function LatestPage(props) {
+function LatestPage() {
   const latestNews = getLatestNews();
   return (
     <>
