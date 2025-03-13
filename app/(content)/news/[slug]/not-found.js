@@ -1,6 +1,6 @@
 import React from "react";
 
-function NotFound(props) {
+function NotFound() {
   return (
     <div id="error">
       <h1>Not found!</h1>

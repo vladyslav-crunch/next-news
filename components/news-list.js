@@ -1,5 +1,4 @@
 import React from "react";
-import { DUMMY_NEWS } from "@/dummy-news";
 import Link from "next/link";
 
 function NewsList({ news }) {
